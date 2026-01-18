@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upspire Studio | Strategy, Technology & Creative Services</title>
+    <meta name="description" content="Upspire Studio is a consulting and holding company offering web development, strategic planning, and creative services. Based in Bellingham, Washington.">
+    <style>
+        :root {
+            --color-bg: #fafafa;
+            --color-text: #1a1a1a;
+            --color-text-muted: #666;
+            --color-accent: #2d3436;
+            --color-border: #e0e0e0;
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            --font-serif: Georgia, 'Times New Roman', serif;
+            --max-width: 800px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.7;
+            font-size: 17px;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            padding: 60px 0 80px;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 400;
+            line-height: 1.3;
+            margin-bottom: 24px;
+            max-width: 600px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--color-text-muted);
+            max-width: 520px;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--color-text-muted);
+            margin-bottom: 24px;
+        }
+
+        /* Services */
+        .services-grid {
+            display: grid;
+            gap: 40px;
+        }
+
+        .service h3 {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+
+        .service p {
+            color: var(--color-text-muted);
+        }
+
+        /* About */
+        .about-content p {
+            margin-bottom: 20px;
+        }
+
+        .about-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Values */
+        .values-list {
+            list-style: none;
+            display: grid;
+            gap: 16px;
+        }
+
+        .values-list li {
+            padding-left: 20px;
+            position: relative;
+            color: var(--color-text-muted);
+        }
+
+        .values-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 6px;
+            height: 6px;
+            background: var(--color-accent);
+            border-radius: 50%;
+        }
+
+        /* Contact */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .contact-info a {
+            color: var(--color-text);
+            text-decoration: none;
+            border-bottom: 1px solid var(--color-border);
+            transition: border-color 0.2s;
+        }
+
+        .contact-info a:hover {
+            border-color: var(--color-text);
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        /* Responsive */
+        @media (min-width: 640px) {
+            header {
+                padding: 80px 0 100px;
+            }
+
+            section {
+                padding: 80px 0;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Upspire Studio</div>
+            <div class="hero">
+                <h1>Strategy, technology, and creative services for organizations that care about impact.</h1>
+                <p>A consulting and holding company based in Bellingham, Washington. We help mission-driven organizations build with intention.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="services-grid">
+                    <div class="service">
+                        <h3>Web Development</h3>
+                        <p>Custom web applications and platforms built with modern technologies. From concept through launch, we create digital experiences that serve your mission.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Strategic Planning</h3>
+                        <p>Technology strategy and roadmapping for emerging platforms. We help organizations navigate complexity with clarity and purpose.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Product Design</h3>
+                        <p>User experience and interface design grounded in research and empathy. We design systems that work for the humans using them.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Creative Direction</h3>
+                        <p>Brand identity and visual systems that communicate your values. Thoughtful design that creates lasting impressions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <div class="about-content">
+                    <p>Upspire Studio was founded by Shawn Kemp, a designer and technologist with over two decades of experience building products and communities at the intersection of technology and purpose.</p>
+                    <p>Prior work includes Creative Director roles at Microsoft Xbox, co-founding ActionSprout (serving 150,000+ nonprofit clients globally), and strategic advisory work with organizations focused on regenerative systems.</p>
+                    <p>Today, Upspire Studio operates as a consulting practice and holding company, partnering with select clients on projects where craft, intention, and impact align.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="values">
+            <div class="container">
+                <h2>How We Work</h2>
+                <ul class="values-list">
+                    <li>Depth over scale. We work with fewer clients more closely.</li>
+                    <li>Integrity first. We only take on work we believe in.</li>
+                    <li>Systems thinking. We consider the whole, not just the parts.</li>
+                    <li>Craftsmanship. Quality and care in every detail.</li>
+                    <li>Regeneration over extraction. Building things that give back.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p>Bellingham, Washington</p>
+                    <p><a href="mailto:shawn@upspire.studio">shawn@upspire.studio</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Upspire Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
