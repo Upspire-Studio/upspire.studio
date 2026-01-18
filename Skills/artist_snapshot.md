@@ -16,7 +16,7 @@ A generative artist who bridges computational systems and physical craft. Create
 
 **Medium:** Laser-cut acid-free mat-board (formerly plywood with shellac finish in earlier work) stacked and bound using PVA (polyvinyl acetate), an archival-quality glue from bookbinding traditions.
 
-**Dimensions:** Typically 8x10 inches to 16x20 inches, sculptural depth from 0.5 to 1+ inches depending on layer count.
+**Dimensions:** Typically 16x20 inches to 24x30 inches, sculptural depth from 0.5 to 1+ inches depending on layer count.
 
 **Aesthetic:** Patterns rooted in nature (mandalas, fractals, organic geometry) and mathematics. Strong emphasis on layering, shadow play, dimensional contrast. Clean, precise cuts. Works change appearance based on light source, viewing angle, and spatial context.
 

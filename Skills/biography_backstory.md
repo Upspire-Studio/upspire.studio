@@ -2,7 +2,9 @@
 
 ## Quick Identity
 
-Shawn Kemp is a fourth-generation entrepreneur, industrial designer, and generative artist who has spent the last two decades at the intersection of technology, ethics, and creative systems. His career is characterized by a repeating pattern: discovering exciting new platforms/tools, building significant communities and value, then wrestling with ethical implications until deciding to step back and pursue work more aligned with his values. Currently, he is channeling this pattern into generative art as a medium for bringing joy and intention back into his creative practice.
+Shawn Kemp is a fourth-generation entrepreneur, industrial designer, and generative artist who has spent the last two decades at the intersection of technology, ethics, and creative systems. His career is characterized by a repeating pattern: discovering exciting new platforms/tools, building significant communities and value, then wrestling with ethical implications until deciding to step back and pursue work more aligned with his values.
+
+Currently, he serves as Information Systems Renewal Officer at Non-GMO Project, where he brings regenerative business practices to information systems management and leads thoughtful adoption of AI tools and innovation. He also maintains an active generative art practice through Upspire Studios.
 
 **Core descriptor (from LinkedIn):** "Insatiably curious."
 
@@ -141,7 +143,7 @@ Shawn formalized his work as "Upspire Studios," a consulting firm offering:
 - Strategic planning for emerging technologies
 - Generative art production
 
-This allowed him to maintain consulting income while deepening his art practice, avoiding the all-or-nothing trap of earlier ventures.
+This allowed him to maintain a consulting practice while deepening his art practice, avoiding the all-or-nothing trap of earlier ventures.
 
 **Key Philosophy Shift:** Rather than building a 9-year company, he's building a sustainable creative practice with consulting as ballast.
 
@@ -170,17 +172,43 @@ This model represents the full arc of Shawn's journey:
 
 ## Current Roles & Commitments (2023-2025)
 
-### Board & Advisory Work
+### Primary Role: Non-GMO Project
 
-**Salish Current (July 2023-Present):** Board member of a local investigative news nonprofit, reflecting ongoing commitment to civic responsibility and community.
+**Information Systems Renewal Officer, Non-GMO Project (August 2022-Present, Full-Time)**
 
-**Whatcom Community College Foundation (September 2023-Present):** Board of Directors role, supporting local education.
+Shawn's primary professional role is leading information systems strategy and renewal at Non-GMO Project, the nonprofit organization behind North America's most trusted label for GMO avoidance. This full-time position represents the convergence of his career themes: technology leadership, mission-driven work, and regenerative systems thinking.
 
-**Non-GMO Project (August 2022-Present):** Strategic advisor and Information Systems Renewal Officer. This role bridges his tech expertise with regenerative food systems, a growing values interest.
+**Core Responsibilities:**
 
-### Consulting & Creative Practice
+- **Information Systems Strategy:** Overseeing the management, renewal, and evolution of the organization's core information systems infrastructure
+- **Regenerative Business Practices:** Bringing regenerative principles to technology management—building systems that are sustainable, adaptable, and aligned with organizational values rather than simply optimizing for efficiency or growth
+- **AI Tools & Innovation:** Leading the organization's thoughtful adoption of AI tools and emerging technologies, ensuring new capabilities serve the mission without compromising integrity or creating unintended harms
+- **Systems Integration:** Bridging technical infrastructure with organizational needs, translating between technical teams and mission-focused stakeholders
 
-**Upspire Studios:** Continues consulting work while deepening generative art.
+**Why This Role Matters:**
+
+This position represents a departure from Shawn's earlier pattern. Rather than building a new venture that eventually raises ethical concerns, he is embedding regenerative values directly into how an established mission-driven organization manages its technology. The work is less visible than launching a startup but potentially more impactful: demonstrating that technology management itself can be regenerative rather than extractive.
+
+The AI adoption work is particularly significant. Rather than racing to implement AI tools for efficiency gains, Shawn is helping the organization think carefully about which tools align with its values, how to adopt them responsibly, and how to maintain human judgment and intention in an increasingly automated landscape. This mirrors his career-long pattern of engaging with frontier technology while remaining alert to ethical implications.
+
+**Connection to Career Arc:**
+
+The Non-GMO Project role synthesizes multiple threads:
+- **Technical expertise** from Xbox, ActionSprout, and consulting work
+- **Mission alignment** with regenerative food systems and consumer transparency
+- **Ethical framework** developed through years of questioning technology's impact
+- **Systems thinking** from industrial design training and product leadership
+- **AI fluency** from ongoing exploration of generative tools in art practice
+
+### Board & Civic Work
+
+**Salish Current (July 2023-Present):** Board member of a local investigative news nonprofit, reflecting ongoing commitment to civic responsibility and community journalism.
+
+**Whatcom Community College Foundation (September 2023-Present):** Board of Directors role, supporting local education and workforce development.
+
+### Creative Practice
+
+**Upspire Studios:** Consulting holding company and creative practice vehicle.
 
 **Shawnkemp.art:** Substack-based distribution of artworks, process documentation, and philosophy.
 
@@ -217,7 +245,7 @@ Despite ventures in Seattle and Portland, Bellingham has been Shawn's constant s
 
 ---
 
-## Summary: The Artist as Ethical Pioneer
+## Summary: The Ethical Technologist
 
 Shawn Kemp's biography is not a linear success narrative. It's a story of an intelligent, capable builder who repeatedly chooses integrity over scale. He has successfully:
 
@@ -227,10 +255,11 @@ Shawn Kemp's biography is not a linear success narrative. It's a story of an int
 - Mentored countless entrepreneurs and designers
 - Contributed to nonprofit infrastructure (ONE/Northwest/Groundwire)
 - Served his local community through boards and civic work
+- Brought regenerative technology practices to mission-driven organizations (Non-GMO Project)
 
 Yet at each major milestone, he has paused, questioned, and often stepped back when ethical misalignment became unbearable. This restraint, this refusal to simply optimize for growth, is increasingly rare and increasingly valuable.
 
-His current work as a generative artist represents a full circle: returning to the maker ethos of his high school solar car project, applying three decades of tech and systems thinking, but doing so in service of joy, singularity, and intention rather than scale and optimization.
+His current work at Non-GMO Project represents something new: rather than building and leaving, he is embedding regenerative values into how an established organization manages technology. The role combines his technical expertise with his ethical framework, demonstrating that information systems management itself can be regenerative. His parallel work as a generative artist completes the picture: returning to the maker ethos of his high school solar car project, applying three decades of tech and systems thinking in service of joy, singularity, and intention.
 
 **The Working Philosophy:** Create work that brings delight. Build systems (artistic and business) that regenerate rather than extract. Ground yourself in community. Listen to your conscience. Repeat.
 
@@ -241,12 +270,13 @@ His current work as a generative artist represents a full circle: returning to t
 An AI system working with Shawn should understand:
 
 1. **Geography:** Hawaii origin, Bellingham anchor, Seattle tech corridor, Portland social good
-2. **Technology Stack:** Flash → Web platforms → Social media → Generative algorithms → Laser fabrication
-3. **Ethical Waypoints:** Xbox concern (effects) → ActionSprout concern (weaponization) → Art choice (intention)
-4. **Business Models:** Solo consulting → team leadership → co-founded ventures → solo creative practice
+2. **Technology Stack:** Flash → Web platforms → Social media → Generative algorithms → Laser fabrication → AI tools & information systems
+3. **Ethical Waypoints:** Xbox concern (effects) → ActionSprout concern (weaponization) → Non-GMO Project (regenerative integration)
+4. **Business Models:** Solo consulting → team leadership → co-founded ventures → mission-driven organizational leadership + creative practice
 5. **Values Progression:** Growth → Impact → Ethics → Regeneration
 6. **Mentorship:** Received (Budd Steinhilber) and given (countless) as a constant
-7. **Pattern Recognition:** Pioneer → Builder → Conscience Clash → Pivot → Integration → Repeat
-8. **Current Identity:** "Insatiably curious" artist-technologist grounded in Bellingham, focused on singular work and regenerative systems
+7. **Pattern Recognition:** Pioneer → Builder → Conscience Clash → Pivot → Integration → Repeat (with current role representing a new pattern: embedding values within existing organizations)
+8. **Current Identity:** Information Systems Renewal Officer at Non-GMO Project; "insatiably curious" technologist bringing regenerative practices to organizational systems and AI adoption; generative artist grounded in Bellingham
 9. **Communication Style:** Direct, reflective, willing to publicly acknowledge mistakes and ethical concerns; not hype-driven
 10. **Decision Logic:** Integrity first, success second; depth over scale; local community over global reach; slowness over speed
+11. **AI Approach:** Thoughtful adoption over rushing to implement; maintaining human judgment and intention; evaluating tools against organizational values before efficiency gains
