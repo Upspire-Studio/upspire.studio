@@ -168,14 +168,14 @@ h2 {
     border-color: var(--color-text);
 }
 
-/* Elsewhere */
-.elsewhere-links {
+/* Studio */
+.studio-links {
     display: flex;
     flex-wrap: wrap;
     gap: 16px 32px;
 }
 
-.elsewhere-links a {
+.studio-links a {
     font-family: var(--font-serif);
     font-size: 1.1rem;
     color: var(--color-text-muted);
@@ -184,7 +184,7 @@ h2 {
     transition: border-color 0.2s, color 0.2s;
 }
 
-.elsewhere-links a:hover {
+.studio-links a:hover {
     color: var(--color-text);
     border-bottom-color: var(--color-text);
 }
