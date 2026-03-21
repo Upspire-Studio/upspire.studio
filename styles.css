@@ -113,6 +113,13 @@ h2 {
 }
 
 /* Current Work / Projects */
+.section-intro {
+    color: var(--color-text-muted);
+    font-size: 1rem;
+    margin-top: -8px;
+    margin-bottom: 32px;
+}
+
 .projects-grid {
     display: grid;
     gap: 24px;
@@ -131,6 +138,16 @@ h2 {
 .project-card:hover {
     border-color: var(--color-accent);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.project-logo {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .project-card h3 {
@@ -262,6 +279,6 @@ footer p {
     }
 
     .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }

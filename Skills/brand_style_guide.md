@@ -13,14 +13,57 @@ This document defines the visual identity, voice, and design principles for Upsp
 "Helping leaders turn ideas into experiences that people enjoy using."
 
 ### Positioning
-Upspire Studio is a consulting practice and holding company that operates at the intersection of strategy, technology, and creative services. We serve mission-driven organizations and leaders who care about impact over scale.
+Upspire Studio is a consulting practice and holding company that operates at the intersection of strategy, technology, and creative services. We serve mission-driven organizations and leaders who care about impact over scale. Think of it as an on-call CIO, CTO, and CPO who loves to roll up their sleeves.
 
 ### Brand Personality
-- **Thoughtful** — We consider implications before acting
+- **Confident & unhurried** — Doesn't need to oversell. The work speaks.
 - **Direct** — Clear communication without jargon or hype
 - **Curious** — Always exploring, learning, iterating
 - **Craftsman-like** — Quality and care in every detail
 - **Grounded** — Rooted in community and values
+- **Empowerment over dependency** — The explicit goal is to not be needed forever
+
+---
+
+## The Mark
+
+The Upspire Studio mark is an ascending arc of five nodes — each larger and brighter than the last — tracing a path from bottom-left to top-right. The smallest nodes are obsidian at low opacity; they grow in size and presence until arriving at the apex: a fully-saturated spark (#C5D94B).
+
+The form references generative particle systems (a nod to the generative art practice), progressive momentum, and the act of lifting ideas into reality. The arc is the "spire" in Upspire.
+
+### Mark SVG (canonical)
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <path d="M10,40 C14,28 24,20 38,10" fill="none" stroke="#1A1917" stroke-width="0.8" opacity="0.12"/>
+  <circle cx="10" cy="40" r="3"   fill="#1A1917" opacity="0.20"/>
+  <circle cx="18" cy="33" r="4"   fill="#1A1917" opacity="0.35"/>
+  <circle cx="27" cy="24" r="5"   fill="#1A1917" opacity="0.55"/>
+  <circle cx="34" cy="17" r="6"   fill="#1A1917" opacity="0.78"/>
+  <circle cx="40" cy="9"  r="7.5" fill="#C5D94B"/>
+</svg>
+```
+
+### Mark on dark backgrounds (white nodes)
+```xml
+<path ... stroke="white" opacity="0.10"/>
+<circle ... fill="white" opacity="0.18"/> <!-- cx=10 -->
+<circle ... fill="white" opacity="0.30"/> <!-- cx=18 -->
+<circle ... fill="white" opacity="0.50"/> <!-- cx=27 -->
+<circle ... fill="white" opacity="0.72"/> <!-- cx=34 -->
+<circle cx="40" cy="9" r="7.5" fill="#C5D94B"/> <!-- apex always spark -->
+```
+
+### Mark on spark background (dark nodes, full apex)
+```xml
+<path ... stroke="#1A1917" opacity="0.18"/>
+<circle ... fill="#1A1917" opacity="0.18/0.32/0.52/0.75"/>
+<circle cx="40" cy="9" r="7.5" fill="#1A1917"/> <!-- apex is full obsidian on spark -->
+```
+
+### Minimum sizes
+- 40px and above: full 5-node mark with connector arc
+- 24px: drop smallest node (cx=10), remove arc
+- Favicon/16px: top 3 nodes only
 
 ---
 
@@ -28,30 +71,46 @@ Upspire Studio is a consulting practice and holding company that operates at the
 
 ### Primary Colors
 
-| Name | Hex | RGB | Usage |
-|------|-----|-----|-------|
-| Background | `#fafafa` | 250, 250, 250 | Page backgrounds, light surfaces |
-| Text | `#1a1a1a` | 26, 26, 26 | Primary body text, headings |
-| Text Muted | `#666666` | 102, 102, 102 | Secondary text, descriptions, labels |
-| Accent | `#2d3436` | 45, 52, 54 | Emphasis, decorative elements |
-| Border | `#e0e0e0` | 224, 224, 224 | Dividers, card borders, subtle lines |
-| Card Background | `#ffffff` | 255, 255, 255 | Cards, elevated surfaces |
+| Name | Hex | Usage |
+|------|-----|-------|
+| Obsidian | `#1A1917` | Primary. Logo, body text, dark surfaces, nav, app icon background |
+| Char | `#2E2C2A` | Secondary dark. Cards on dark, elevated surfaces |
+| Spark | `#C5D94B` | Accent. Mark apex, CTAs, highlights, active states |
+| Dusk | `#74717F` | Secondary text, labels, captions, eyebrows |
+| Dusk Light | `#C2C0CC` | Subtle text on dark, reversed secondary |
+| Phosphor | `#F2F7D4` | Light spark tint. Hover states, spark-tinted backgrounds |
+| Parchment | `#F2EEE6` | Page background. Warm, considered — the default canvas |
+| Mid | `#5A5865` | Body text on light backgrounds |
+| Muted | `#9A98A4` | Placeholder, disabled, very secondary text |
+| White | `#FFFFFF` | Pure white for cards and elevated surfaces |
 
 ### Color Usage Rules
-- Use **Text** (`#1a1a1a`) for all primary content
-- Use **Text Muted** (`#666666`) for supporting text, descriptions, and labels
-- Use **Border** (`#e0e0e0`) for subtle separation between sections
-- Avoid bright or saturated colors — the palette is intentionally muted and sophisticated
+- **Parchment** (`#F2EEE6`) is the primary page background — warm and considered
+- **Obsidian** (`#1A1917`) for all primary text on light backgrounds
+- **Spark** (`#C5D94B`) is a highlight color — use sparingly for maximum impact
+- The spark color is chartreuse/yellow-green and pops on both light and dark surfaces
 - Never use pure black (`#000000`) for text
 
 ### CSS Variables
 ```css
 :root {
-    --color-bg: #fafafa;
-    --color-text: #1a1a1a;
-    --color-text-muted: #666;
-    --color-accent: #2d3436;
-    --color-border: #e0e0e0;
+    --obsidian:   #1A1917;
+    --obsidian-m: #2E2C2A;
+    --spark:      #C5D94B;
+    --spark-d:    #8A9A2E;
+    --spark-l:    #F2F7D4;
+    --dusk:       #74717F;
+    --dusk-l:     #C2C0CC;
+    --parchment:  #F2EEE6;
+    --white:      #FFFFFF;
+    --mid:        #5A5865;
+    --muted:      #9A98A4;
+    --rule:       rgba(26,25,23,0.1);
+    --color-bg:   #F2EEE6;
+    --color-text: #1A1917;
+    --color-text-muted: #74717F;
+    --color-accent: #C5D94B;
+    --color-border: rgba(26,25,23,0.1);
 }
 ```
 
@@ -61,37 +120,34 @@ Upspire Studio is a consulting practice and holding company that operates at the
 
 ### Font Families
 
-| Type | Font Stack | Usage |
-|------|------------|-------|
-| Sans-serif | `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif` | Body text, UI elements, labels |
-| Serif | `Georgia, 'Times New Roman', serif` | Headlines, project names, emphasis |
+| Type | Font | Stack | Usage |
+|------|------|-------|-------|
+| Serif | Cormorant Garamond | `'Cormorant Garamond', Georgia, 'Times New Roman', serif` | Display, headlines, hero text, editorial moments |
+| Sans-serif | Syne | `'Syne', 'Segoe UI', system-ui, sans-serif` | UI, navigation, labels, body, functional text |
+
+Both fonts loaded from Google Fonts:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
 
 ### Type Scale
 
-| Element | Font | Size | Weight | Line Height | Notes |
-|---------|------|------|--------|-------------|-------|
-| Body | Sans-serif | 17px | 400 | 1.7 | Default paragraph text |
-| H1 (Hero) | Serif | clamp(2rem, 5vw, 3rem) | 400 | 1.3 | Main page headline |
-| H2 (Section) | Sans-serif | 0.85rem | 600 | — | Uppercase, letter-spacing: 0.1em |
-| H3 (Card/Service) | Serif | 1.4rem | 400 | — | Service and card titles |
-| Logo | Sans-serif | 1.5rem | 600 | — | Letter-spacing: -0.02em |
-| Small Text | Sans-serif | 0.9rem | 400 | — | Footer, captions |
-| Links/Tags | Serif | 1.1rem | 400 | — | Project lists, elsewhere links |
+| Element | Font | Size | Weight | Notes |
+|---------|------|------|--------|-------|
+| Display | Cormorant Garamond | 56px | 300 | Hero, cover titles |
+| H1 | Cormorant Garamond | 36px | 300 | Main page headline |
+| H2 (Section) | Syne | 22px | 700 | letter-spacing: -0.02em |
+| H3 (Card) | Cormorant Garamond | 20px | 400 | Service and card titles |
+| Body | Syne | 15–17px | 400 | line-height: 1.7–1.8 |
+| Label / Eyebrow | Syne | 11px | 600 | uppercase, letter-spacing: 0.16em |
+| Logo wordmark | Syne | variable | 600 | letter-spacing: -0.02em |
 
 ### Typography Rules
-- **Never use bold serif text** — serif fonts should always be weight 400
-- Section headers (H2) are always **uppercase** with wide letter-spacing
-- Use serif fonts for **names, titles, and emphasis** — they add warmth
-- Use sans-serif for **functional text** — body copy, descriptions, UI
-- Maximum line width for body text: **520-600px** for readability
-
-### CSS Variables
-```css
-:root {
-    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-    --font-serif: Georgia, 'Times New Roman', serif;
-}
-```
+- **Never bold serif** — Cormorant Garamond is always weight 300 or 400 (italic adds elegance)
+- Section eyebrows/labels: Syne, 11px, uppercase, wide letter-spacing, Dusk color
+- H1/hero: Cormorant Garamond light (300), generous line-height (1.0–1.3)
+- Maximum body text line width: **520–600px** for readability
+- Use `font-style: italic` on Cormorant for editorial warmth
 
 ---
 
@@ -99,7 +155,7 @@ Upspire Studio is a consulting practice and holding company that operates at the
 
 ### Container
 - Max width: **800px**
-- Horizontal padding: **24px**
+- Horizontal padding: **24px** mobile, **48px** desktop
 - Centered with `margin: 0 auto`
 
 ### Section Spacing
@@ -111,12 +167,11 @@ Upspire Studio is a consulting practice and holding company that operates at the
 ### Component Spacing
 | Element | Spacing |
 |---------|---------|
-| Section header to content | 24px |
+| Section label to content | 24px |
 | Paragraph spacing | 20px |
 | Grid gap (services) | 40px |
 | Grid gap (cards) | 24px |
 | List item gap | 16px |
-| Tag/link gap | 16px vertical, 32px horizontal |
 
 ### Grid Layouts
 - **Services grid**: 1 column mobile, 2 columns desktop
@@ -130,32 +185,42 @@ Upspire Studio is a consulting practice and holding company that operates at the
 ### Cards
 ```css
 .card {
-    padding: 24px;
+    padding: 24–32px;
     background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    border: 1px solid rgba(26,25,23,0.1);
+    border-radius: 12px;
 }
-
 .card:hover {
-    border-color: #2d3436;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: #1A1917;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 ```
 
-### Links
-- **Default**: Text color with subtle bottom border (`#e0e0e0`)
-- **Hover**: Border darkens to text color
-- **Never use underlines** — use bottom borders instead
-- Transition: `0.2s` for smooth state changes
+### Buttons
+| Variant | Background | Text | Border |
+|---------|-----------|------|--------|
+| Primary | `#1A1917` | `#FFFFFF` | none |
+| Accent | `#C5D94B` | `#1A1917` | none |
+| Ghost | transparent | `#1A1917` | 1.5px `#1A1917` |
 
-### Lists (Bullet Points)
-- Custom bullets: 6px circles in accent color
-- Left padding: 20px
-- Bullets positioned at `top: 10px` to align with text
+### Pills / Tags
+- Obsidian pill: `background: #1A1917; color: #C5D94B` — primary service label
+- Spark pill: `background: #F2F7D4; color: #5A6818` — secondary/highlight
+- Parchment pill: `background: #F2EEE6; color: #2E2C2A; border: 1px solid rgba(26,25,23,0.12)`
 
-### Section Dividers
-- Use `border-bottom: 1px solid #e0e0e0` between sections
-- Last section has no bottom border
+### Section Labels (Eyebrows)
+```css
+.section-label {
+    font-family: var(--f-sans);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #74717F;
+    border-bottom: 1px solid rgba(26,25,23,0.1);
+    padding-bottom: 10px;
+    margin-bottom: 24px;
+}
+```
 
 ---
 
@@ -163,44 +228,20 @@ Upspire Studio is a consulting practice and holding company that operates at the
 
 ### Writing Principles
 
-1. **Direct over clever**
-   - Say what you mean clearly
-   - Avoid marketing speak and buzzwords
-   - No superlatives or hype ("revolutionary", "game-changing")
-
-2. **First person singular**
-   - Use "I" not "we" — this is a personal practice
-   - Exception: "We" is acceptable when describing collaborative work
-
-3. **Active voice**
-   - "I help leaders turn ideas into experiences"
-   - Not: "Leaders are helped to turn ideas into experiences"
-
-4. **Concrete over abstract**
-   - Specific examples beat vague claims
-   - "422K+ subscribers" not "large audience"
-   - "From Xbox to ActionSprout" not "major companies"
-
-5. **Honest about limitations**
-   - "My goal is to not be engaged any longer than necessary"
-   - Acknowledge trade-offs and constraints
+1. **Direct over clever** — Say what you mean. No buzzwords, no superlatives.
+2. **First person singular** — Use "I" not "we" — this is a personal practice.
+3. **Active voice** — "I help leaders turn ideas into experiences."
+4. **Concrete over abstract** — Specific examples beat vague claims. "422K+ subscribers" not "large audience."
+5. **Honest about limitations** — "My goal is to not be engaged any longer than necessary."
+6. **Confident & unhurried** — Doesn't oversell. The portfolio speaks.
 
 ### Vocabulary
 
-**Use:**
-- Clarity, intention, craft, impact
-- Systems thinking, patterns, iteration
-- Mission-driven, regenerative, thoughtful
-- Build, create, help, empower
+**Use:** clarity, intention, craft, impact, systems thinking, patterns, iteration, mission-driven, build, create, help, empower
 
-**Avoid:**
-- Disrupt, revolutionize, game-changing
-- Synergy, leverage, optimize (unless technical)
-- Best-in-class, world-class, leading
-- Passionate (show, don't tell)
+**Avoid:** disrupt, revolutionize, game-changing, synergy, leverage, best-in-class, passionate (show don't tell)
 
 ### Formatting Conventions
-
 - **Headlines**: Sentence case, no period
 - **Descriptions**: Complete sentences with periods
 - **Lists**: Parallel structure, consistent punctuation
@@ -208,44 +249,71 @@ Upspire Studio is a consulting practice and holding company that operates at the
 
 ---
 
-## Imagery & Visual Style
+## Brand Assets
 
-### Photography
-- Not currently used on the website
-- If added: Natural, candid, warm tones
-- Avoid: Stock photo aesthetics, overly polished corporate imagery
+All brand assets live in the `/brand/` folder.
 
-### Icons & Graphics
-- Minimal use — typography and whitespace carry the design
-- If needed: Simple, line-based, monochromatic
-- Decorative bullet points: Small circles (6px)
+### File Structure
+```
+brand/
+  source/         SVG source files — authoritative, vector, editable
+  png/            PNG exports at production dimensions
+  jpg/            JPG exports (social media optimized, 92% quality)
+```
 
-### Whitespace
-- Generous whitespace is a feature, not a bug
-- Let content breathe
-- Resist the urge to fill empty space
+### Available Assets
+
+| File | Dimensions | Use |
+|------|-----------|-----|
+| `source/upspire-mark-transparent.svg` | 800×800 | Mark only, transparent background |
+| `source/upspire-favicon-source.svg` | 512×512 | App icon (dark bg, rounded rect) |
+| `source/upspire-square-parchment.svg` | 800×800 | Mark on parchment — LinkedIn, profile pics |
+| `source/upspire-square-obsidian.svg` | 800×800 | Mark on obsidian — dark mode profile, Instagram |
+| `source/upspire-square-spark.svg` | 800×800 | Mark on spark — bold accent variant |
+| `source/upspire-lockup-parchment.svg` | 1200×400 | Full logo on parchment — email headers, docs |
+| `source/upspire-lockup-obsidian.svg` | 1200×400 | Full logo on dark — dark email, presentations |
+| `source/upspire-lockup-spark.svg` | 1200×400 | Full logo on spark — bold variant |
+| `source/upspire-og.svg` | 1200×630 | OG / social share card (source) |
+| `png/upspire-square-*.png` | 800×800 | PNG squares for social profiles |
+| `png/upspire-lockup-*.png` | 1200×400 | PNG lockups |
+| `png/upspire-og.png` | 1200×630 | OG share card (also at `/og-image.png`) |
+| `jpg/upspire-square-*.jpg` | 800×800 | JPG squares (92% quality) |
+| `jpg/upspire-lockup-*.jpg` | 1200×400 | JPG lockups |
+| `jpg/upspire-og.jpg` | 1200×630 | JPG OG card |
+
+### Favicon & App Icons
+
+| File | Size | Use |
+|------|------|-----|
+| `favicon.svg` | scalable | Modern browsers (Chrome, Firefox, Safari) |
+| `favicon.ico` | 16+32px | Legacy browsers, default fallback |
+| `icons/favicon-16x16.png` | 16×16 | Browser tab fallback |
+| `icons/favicon-32x32.png` | 32×32 | Browser tab, taskbar |
+| `apple-touch-icon.png` | 180×180 | iOS homescreen, Safari bookmarks |
+| `icons/android-chrome-192x192.png` | 192×192 | Android homescreen, PWA |
+| `icons/android-chrome-512x512.png` | 512×512 | Android splash screen, PWA |
 
 ---
 
 ## Do's and Don'ts
 
 ### Do
-- Use plenty of whitespace
-- Keep typography simple and readable
-- Use muted colors consistently
+- Use parchment (`#F2EEE6`) as the default page background
+- Use spark (`#C5D94B`) sparingly — it carries maximum impact when restrained
+- Use Cormorant Garamond for display/hero text, Syne for everything functional
+- Use the mark's ascending arc to reinforce the "upspire" idea of lifting/momentum
+- Pair the mark with italic serif for editorial warmth
+- Use generous whitespace — it's a feature, not a gap to fill
 - Write in first person, directly
-- Show expertise through specifics, not claims
-- Maintain visual hierarchy through type scale
-- Use subtle hover states and transitions
 
 ### Don't
+- Bold serif text — Cormorant should always be light or regular weight
+- Use saturated or bright colors beyond spark
 - Add decorative elements without purpose
-- Use bright or saturated colors
-- Bold serif text
-- Write in marketing-speak
+- Write in marketing-speak or use superlatives
 - Crowd the layout
-- Use underlines for links (use borders)
-- Add animations or motion effects
+- Use underlines for links (use bottom-borders instead)
+- Change the apex node color — it is always `#C5D94B` (Spark) except on spark backgrounds
 
 ---
 
@@ -254,50 +322,32 @@ Upspire Studio is a consulting practice and holding company that operates at the
 ### Current Implementation
 - **Website**: `index.html`
 - **Styles**: `styles.css`
+- **Mark SVG**: `upspire-mark.svg`
+- **Favicon SVG**: `favicon.svg`
+- **PWA Manifest**: `site.webmanifest`
+- **OG Image**: `og-image.png`
+- **Brand Assets**: `brand/`
 - **Biography**: `Skills/biography_backstory.md`
 - **Brand Guide**: `Skills/brand_style_guide.md` (this file)
-
-### CSS Custom Properties (Full Reference)
-```css
-:root {
-    --color-bg: #fafafa;
-    --color-text: #1a1a1a;
-    --color-text-muted: #666;
-    --color-accent: #2d3436;
-    --color-border: #e0e0e0;
-    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-    --font-serif: Georgia, 'Times New Roman', serif;
-    --max-width: 800px;
-}
-```
-
----
-
-## AI Implementation Notes
-
-When generating content or designs for Upspire Studio:
-
-1. **Always reference this guide** for colors, typography, and voice
-2. **Prioritize readability** over visual complexity
-3. **Use the established type hierarchy** — don't invent new sizes
-4. **Maintain the muted, sophisticated color palette**
-5. **Write in Shawn's voice** — direct, thoughtful, specific
-6. **Avoid adding features** not established in the current design
-7. **When in doubt, simplify** — less is more
 
 ### Quick Reference for AI Tools
 
 ```
-Background: #fafafa
-Text: #1a1a1a
-Text Muted: #666666
-Border: #e0e0e0
-Accent: #2d3436
+Background:   #F2EEE6  (parchment)
+Text:         #1A1917  (obsidian)
+Text Muted:   #74717F  (dusk)
+Accent:       #C5D94B  (spark — use sparingly)
+Border:       rgba(26,25,23,0.1)
+Mid text:     #5A5865
 
-Body Font: System sans-serif, 17px
-Headlines: Georgia serif, weight 400
-Section Labels: Sans-serif, 0.85rem, uppercase
+Display Font: Cormorant Garamond, weight 300/400, italic for warmth
+UI Font:      Syne, weight 400–700
+Section Labels: Syne 11px uppercase, letter-spacing 0.16em
 
-Max Width: 800px
-Section Padding: 60-80px
+Max Width:    800px
+Section Padding: 60–80px
+Card Radius:  12px
+
+Mark viewBox: 0 0 48 48
+Apex node:    cx=40 cy=9 r=7.5 fill=#C5D94B (always)
 ```

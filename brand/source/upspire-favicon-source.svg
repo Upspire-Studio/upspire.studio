@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="512" height="512" role="img" aria-label="Upspire Studio app icon">
+  <title>Upspire Studio</title>
+  <rect width="48" height="48" rx="11" fill="#1A1917"/>
+  <path d="M10,40 C14,28 24,20 38,10" fill="none" stroke="white" stroke-width="0.8" opacity="0.10"/>
+  <circle cx="10"  cy="40"  r="3"   fill="white" opacity="0.18"/>
+  <circle cx="18"  cy="33"  r="4"   fill="white" opacity="0.30"/>
+  <circle cx="27"  cy="24"  r="5"   fill="white" opacity="0.50"/>
+  <circle cx="34"  cy="17"  r="6"   fill="white" opacity="0.72"/>
+  <circle cx="40"  cy="9"   r="7.5" fill="#C5D94B"/>
+</svg>

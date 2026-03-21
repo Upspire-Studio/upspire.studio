@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Upspire Studio open graph image">
+  <title>Upspire Studio — Strategic Innovation &amp; Technology Leadership</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&amp;family=Cormorant+Garamond:ital,wght@0,300;1,300&amp;display=swap');
+      .sans { font-family: 'Syne', 'Segoe UI', system-ui, sans-serif; }
+      .serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1A1917"/>
+  <!-- Subtle background mark (large, faint) -->
+  <svg x="560" y="-80" width="800" height="800" viewBox="0 0 48 48" opacity="0.06">
+    <path d="M10,40 C14,28 24,20 38,10" fill="none" stroke="white" stroke-width="0.8"/>
+    <circle cx="10"  cy="40"  r="3"   fill="white"/>
+    <circle cx="18"  cy="33"  r="4"   fill="white"/>
+    <circle cx="27"  cy="24"  r="5"   fill="white"/>
+    <circle cx="34"  cy="17"  r="6"   fill="white"/>
+    <circle cx="40"  cy="9"   r="7.5" fill="white"/>
+  </svg>
+  <!-- Left column mark -->
+  <svg x="80" y="165" width="300" height="300" viewBox="0 0 48 48">
+    <path d="M10,40 C14,28 24,20 38,10" fill="none" stroke="white" stroke-width="0.8" opacity="0.10"/>
+    <circle cx="10"  cy="40"  r="3"   fill="white" opacity="0.18"/>
+    <circle cx="18"  cy="33"  r="4"   fill="white" opacity="0.30"/>
+    <circle cx="27"  cy="24"  r="5"   fill="white" opacity="0.50"/>
+    <circle cx="34"  cy="17"  r="6"   fill="white" opacity="0.72"/>
+    <circle cx="40"  cy="9"   r="7.5" fill="#C5D94B"/>
+  </svg>
+  <!-- Vertical rule -->
+  <line x1="450" y1="80" x2="450" y2="550" stroke="white" stroke-width="1" opacity="0.10"/>
+  <!-- Right column text -->
+  <text x="498" y="174" class="sans" font-size="13" font-weight="600" fill="#C5D94B" letter-spacing="3" opacity="0.8">UPSPIRE STUDIO</text>
+  <text x="498" y="258" class="serif" font-size="64" font-weight="300" fill="white" letter-spacing="-0.5">Helping leaders</text>
+  <text x="498" y="328" class="serif" font-size="64" font-weight="300" fill="white" font-style="italic" letter-spacing="-0.5">turn ideas into</text>
+  <text x="498" y="398" class="serif" font-size="64" font-weight="300" fill="white" letter-spacing="-0.5">experiences.</text>
+  <text x="500" y="480" class="sans" font-size="16" font-weight="400" fill="white" opacity="0.45">Strategic Innovation &amp; Technology Leadership</text>
+  <text x="500" y="516" class="sans" font-size="16" font-weight="400" fill="white" opacity="0.3">upspire.studio</text>
+</svg>

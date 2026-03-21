@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Upspire Studio logo on spark">
+  <title>Upspire Studio</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600&amp;display=swap');
+      .wordmark { font-family: 'Syne', 'Segoe UI', system-ui, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="400" fill="#C5D94B"/>
+  <!-- Mark -->
+  <svg x="140" y="60" width="280" height="280" viewBox="0 0 48 48">
+    <path d="M10,40 C14,28 24,20 38,10" fill="none" stroke="#1A1917" stroke-width="0.8" opacity="0.18"/>
+    <circle cx="10"  cy="40"  r="3"   fill="#1A1917" opacity="0.18"/>
+    <circle cx="18"  cy="33"  r="4"   fill="#1A1917" opacity="0.32"/>
+    <circle cx="27"  cy="24"  r="5"   fill="#1A1917" opacity="0.52"/>
+    <circle cx="34"  cy="17"  r="6"   fill="#1A1917" opacity="0.75"/>
+    <circle cx="40"  cy="9"   r="7.5" fill="#1A1917"/>
+  </svg>
+  <!-- Wordmark -->
+  <text x="480" y="195" class="wordmark" font-size="72" font-weight="600" fill="#1A1917" letter-spacing="-1.5">Upspire Studio</text>
+  <text x="482" y="248" class="wordmark" font-size="20" font-weight="400" fill="#4A4820" letter-spacing="3.5">STRATEGIC INNOVATION &amp; TECHNOLOGY</text>
+</svg>

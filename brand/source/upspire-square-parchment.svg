@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Upspire Studio mark on parchment">
+  <title>Upspire Studio</title>
+  <rect width="800" height="800" fill="#F2EEE6"/>
+  <svg x="160" y="160" width="480" height="480" viewBox="0 0 48 48">
+    <path d="M10,40 C14,28 24,20 38,10" fill="none" stroke="#1A1917" stroke-width="0.8" opacity="0.12"/>
+    <circle cx="10"  cy="40"  r="3"   fill="#1A1917" opacity="0.20"/>
+    <circle cx="18"  cy="33"  r="4"   fill="#1A1917" opacity="0.35"/>
+    <circle cx="27"  cy="24"  r="5"   fill="#1A1917" opacity="0.55"/>
+    <circle cx="34"  cy="17"  r="6"   fill="#1A1917" opacity="0.78"/>
+    <circle cx="40"  cy="9"   r="7.5" fill="#C5D94B"/>
+  </svg>
+</svg>
