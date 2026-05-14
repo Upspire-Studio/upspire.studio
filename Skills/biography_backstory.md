@@ -22,7 +22,7 @@ Shawn was raised in Kona, Hawaii, in an environment that fostered early technica
 
 ### Western Washington University (1994-1998)
 
-Following Steinhilber's guidance, Shawn moved to Bellingham, Washington, to study industrial design at Western Washington University (BS, 1998). This move away from Hawaii to a small Pacific Northwest college town would become his geographic anchor for the next 25+ years. The industrial design degree gave him formal training in systems thinking, materiality, process, form, and human-centered design. This foundation would shape his later approach to product design at Microsoft and eventually inform his generative art practice (understanding how systems generate form, how digital becomes physical).
+Following Steinhilber's guidance, Shawn moved to Bellingham, Washington, to study industrial design at Western Washington University (BS, 1998). This move away from Hawaii to a small Pacific Northwest college town would become his long-term geographic anchor, even after an eight-year stretch in the Seattle area for Microsoft (1998–2006) before he returned to Bellingham for good. The industrial design degree gave him formal training in systems thinking, materiality, process, form, and human-centered design. This foundation would shape his later approach to product design at Microsoft and eventually inform his generative art practice (understanding how systems generate form, how digital becomes physical).
 
 **Key Theme:** Following mentorship rather than predetermined path; geographic commitment to community.
 
@@ -32,7 +32,7 @@ Following Steinhilber's guidance, Shawn moved to Bellingham, Washington, to stud
 
 ### Beta Think: First Startup (1999-2000)
 
-After graduating, Shawn moved to Seattle (staying in Washington state, within driving distance of Bellingham). He bought a house, split the mortgage with roommates, and started his own consulting company, Beta Think. The focus was cutting-edge web design: Adobe Flash and interactive advertising. At the time (late 1990s), most web graphics were static. Flash represented the frontier of interactivity. His clients ranged from casinos to agencies eager to experiment with animated, interactive banner ads.
+After graduating, Shawn left Bellingham and moved south to the Seattle area, where he would live for the next eight years across Seattle, Bellevue, and Redmond (staying in Washington state, within driving distance of Bellingham). He bought a house, split the mortgage with roommates, and started his own consulting company, Beta Think. The focus was cutting-edge web design: Adobe Flash and interactive advertising. At the time (late 1990s), most web graphics were static. Flash represented the frontier of interactivity. His clients ranged from casinos to agencies eager to experiment with animated, interactive banner ads.
 
 **Note:** This establishes a pattern: Shawn is drawn to frontier/emerging tech, sees its potential, and builds expertise early.
 
@@ -63,7 +63,7 @@ Compounding this were work conditions: 80-hour weeks, a "extremely misogynistic 
 
 **Key Pattern Emerging:** Success + Impact Questions + Exhaustion = Departure to reflect.
 
-He left Microsoft around 2006 and took time off with his wife. They moved back to Bellingham to think about next steps.
+He left Microsoft around 2006 and took time off with his wife. After eight years in the Seattle metro (Seattle, Bellevue, Redmond), they moved back to Bellingham to think about next steps. He has been based in Bellingham ever since.
 
 ---
 
@@ -241,7 +241,7 @@ This is not cynicism or failure; it's integrity with restlessness.
 
 ### Bellingham as Anchor
 
-Despite ventures in Seattle and Portland, Bellingham has been Shawn's constant since 1994. He started the industrial design degree there, returned after Microsoft burnout, built ActionSprout with offices in Bellingham, founded Invent Coworking there, and currently bases himself there with his art practice and board roles. Bellingham represents rootedness, community commitment, and intentional living.
+Apart from an eight-year stretch in the Seattle area for Microsoft (1998–2006, across Seattle, Bellevue, and Redmond) and later ventures in Portland, Bellingham has been Shawn's home base since 1994. He started the industrial design degree there, returned in 2006 after Microsoft burnout, built ActionSprout with offices in Bellingham, founded Invent Coworking there, and currently bases himself there with his art practice and board roles. Bellingham represents rootedness, community commitment, and intentional living.
 
 ---
 
