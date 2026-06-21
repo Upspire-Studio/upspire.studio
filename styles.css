@@ -40,10 +40,19 @@ header {
 }
 
 .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-bottom: 40px;
+}
+
+.logo img {
+    width: 64px;
+    height: 64px;
 }
 
 .hero h1 {
