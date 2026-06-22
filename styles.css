@@ -51,8 +51,28 @@ header {
 }
 
 .logo img {
-    width: 64px;
-    height: 64px;
+    width: 96px;
+    height: 96px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-portrait {
+    flex-shrink: 0;
+    width: 220px;
+}
+
+.hero-portrait img {
+    width: 100%;
+    display: block;
 }
 
 .hero h1 {
@@ -69,6 +89,17 @@ header {
     color: var(--color-text-muted);
     max-width: 520px;
     line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .hero-portrait {
+        width: 160px;
+    }
 }
 
 /* Sections */
